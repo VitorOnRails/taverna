@@ -5,7 +5,8 @@ Uma aplicação front-end interativa e temática, desenvolvida em React, que sim
 
 ## ✨ Funcionalidades
 * **Consumo de API Local:** Requisições assíncronas (via `fetch`) para buscar os dados dos pratos e bebidas em um servidor Express rodando simultaneamente.
-* **Filtros Dinâmicos Multi-camadas:** * Filtragem por **categorias** (Almoço, Janta, etc.) utilizando botões de rápido acesso.
+* **Filtros Dinâmicos Multi-camadas:** 
+  * Filtragem por **categorias** (Almoço, Janta, etc.) utilizando botões de rápido acesso.
   * Busca instantânea por **texto** na barra de pesquisa, renderizando os resultados em tempo real.
 * **Gerenciamento de Estado de UI:** Tratamento visual para os estados de `Loading` (carregamento da API) e `Error` (falha na requisição), melhorando a experiência do usuário.
 * **Design Reativo e Glassmorphism:** Interface responsiva construída com Flexbox. Os cards dos pratos utilizam a técnica de *Glassmorphism* (através de `backdrop-filter: blur` e fundos translúcidos) para um visual moderno e perfeitamente integrado ao tema da Taverna.
