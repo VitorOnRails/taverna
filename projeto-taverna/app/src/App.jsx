@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import { useState, useEffect } from 'react';
 import ResultadoPesquisa from './components/resultadoDePesquisas/ResultadoPesquisa';
-import { BASE_URL } from './constants';
+import { BASE_URL } from "./constants";
+import Button from "./Button";
 
 const App = () => {
   
@@ -149,17 +150,4 @@ const FilterContainer = styled.section`
   justify-content: center;
   gap: 20px;
   padding-bottom: 40px;
-`;
-
-const Button = styled.button`
-  background: ${({isSelected}) => (isSelected ? "#f0a13a" : "#d9953c")};
-  outline: 1px solid ${({isSelected}) => (isSelected ? "#FFFFFF" : "#d9953c")};
-  border-radius: 5px;
-  padding: 6px 12px;
-  border: none;
-  color: #FFFFFF;
-  cursor: pointer;
-  &:hover {
-    background: #EAA64D;
-  }
 `;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import { BASE_URL, Button } from "../../App";
+import Button from "../../Button";
+import { BASE_URL } from "../../constants";
 const ResultadoPesquisa = ({ data }) => {
   return (
     <FoodContainer>
