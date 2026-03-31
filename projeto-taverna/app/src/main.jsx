@@ -1,22 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { createGlobalStyle } from "styled-components";
+import { GlobalStyle } from "./globalstyles.js";
 
-const GlobalStyle = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-
-  body {
-    background-color: #562F00;
-    color: #FFFFFF;
-    min-height: 100vh;
-    font-family: "Inter", sans-serif;
-  }
-`;
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
